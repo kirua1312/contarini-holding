@@ -12,22 +12,24 @@ export default function Home() {
 
       <main className="flex min-h-screen flex-col items-center justify-center px-6 py-24">
         <div className="flex w-full max-w-lg flex-col items-center gap-8 text-center">
-          <Image
-            src="/contarini-crest.png"
-            alt="Blason Contarini — oie dans un écu, ruban SIC PARVIS MAGNA"
-            width={320}
-            height={380}
-            priority
-            className="h-auto w-[220px] md:w-[300px]"
-          />
+          <div className="flex flex-col items-center gap-3">
+            <Image
+              src="/contarini-crest.png"
+              alt="Blason Contarini — oie dans un écu, ruban SIC PARVIS MAGNA"
+              width={360}
+              height={428}
+              priority
+              className="h-auto w-[260px] md:w-[360px]"
+            />
 
-          <h1 className="font-display text-4xl font-medium uppercase tracking-[0.28em] text-navy md:text-5xl">
-            Contarini
-          </h1>
+            <h1 className="font-display text-4xl font-medium uppercase tracking-[0.28em] text-navy md:text-5xl">
+              Contarini
+            </h1>
+          </div>
 
           <DiamondSeparator />
 
-          <div className="flex flex-col gap-2 font-body text-lg italic text-navy md:text-xl">
+          <div className="flex flex-col gap-2 font-body text-lg italic text-navy">
             <p>Société de participations et d&apos;investissement</p>
             <p>Marseille – France</p>
           </div>
