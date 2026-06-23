@@ -1,7 +1,7 @@
 export default function DiamondSeparator() {
   return (
     <div
-      className="flex w-full max-w-xs items-center justify-center gap-3"
+      className="flex w-full max-w-52 items-center justify-center gap-3"
       aria-hidden="true"
     >
       <span className="h-px flex-1 bg-navy" />
