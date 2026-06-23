@@ -12,8 +12,8 @@ export default function Home() {
         </ContactButton>
       </header>
 
-      <main className="flex min-h-screen flex-col items-center justify-center px-6 py-24">
-        <div className="flex w-full max-w-lg flex-col items-center gap-8 text-center">
+      <main className="flex min-h-screen flex-col items-center justify-center px-6 py-8">
+        <div className="flex w-full max-w-lg flex-col items-center gap-5 text-center">
           <div className="flex w-full flex-col items-center">
             <div className="mb-3 flex w-full justify-center leading-none">
               <Image
@@ -40,7 +40,7 @@ export default function Home() {
 
           <DiamondSeparator />
 
-          <footer className="mt-4 font-body text-sm text-navy">
+          <footer className="font-body text-sm text-navy">
             <p>© 2026 Contarini. Tous droits réservés.</p>
             <Link
               href="#"
